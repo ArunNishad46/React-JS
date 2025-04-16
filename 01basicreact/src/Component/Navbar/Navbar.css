@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    background-color: #212121;
+}
+.nav img{
+    width: 60px;
+    margin-left: 20px;
+}
+ul{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li{
+    width: fit-content;
+    list-style-type: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+ul li:hover{
+    background-color: #fff;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+ul li:hover a{
+    color: #212121;
+}
+
+
